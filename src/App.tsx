@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
-import "./App.css";
-import Home from "./componenets/home/Home";
-import Login from "./componenets/auth/Login";
+import "./App.scss";
+import Home from "./components/home/Home";
+import Login from "./components/auth/Login";
 
 function App() {
   // const [count, setCount] = useState(0)
