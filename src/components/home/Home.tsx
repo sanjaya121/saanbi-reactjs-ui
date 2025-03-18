@@ -1,10 +1,13 @@
+import Navigation from "../common/header/navigation/Navigation";
 
-const Home=()=>{
-    return(
-        <div className="home-component">
-            <h1> Home Component</h1>
-        </div>
-    )
-}
+const Home = () => {
+	return (
+		<div className="home-component ">
+			<div className="navigation-container container">
+				<Navigation />
+			</div>
+		</div>
+	);
+};
 
 export default Home;
