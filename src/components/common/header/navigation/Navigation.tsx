@@ -1,82 +1,50 @@
 const Navigation = () => {
 	return (
 		<div className="d-flex align-items-center row">
-			<div className="col-lg-3">
+			<div className="col-lg-2">
 				<div className="logo-content d-flex align-items-center">
-					<img src="images/logo/logo.png" height="80" /> <div>Ghongi</div>
+					<img src="images/logo/logo.png" height="80" /> <div className="h5 mx-3">Ghongi</div>
 				</div>
 			</div>
-			<div className="col-lg-9">
+			<div className="col-lg-6">
 				<div className="navigation mx-5">
 					<nav className="navbar navbar-expand-lg">
 						<div className="container-fluid">
-							<a className="navbar-brand" href="#">
-								Navbar
-							</a>
-							<button
-								className="navbar-toggler"
-								type="button"
-								data-bs-toggle="collapse"
-								data-bs-target="#navbarSupportedContent"
-								aria-controls="navbarSupportedContent"
-								aria-expanded="false"
-								aria-label="Toggle navigation"
-							>
-								<span className="navbar-toggler-icon"></span>
-							</button>
+						
 							<div
 								className="collapse navbar-collapse"
 								id="navbarSupportedContent"
 							>
 								<ul className="navbar-nav me-auto mb-2 mb-lg-0">
-									<li className="nav-item">
+									<li className="nav-item mx-3">
 										<a className="nav-link active" aria-current="page" href="#">
 											Home
 										</a>
 									</li>
-									<li className="nav-item">
+									<li className="nav-item mx-3">
+										<a className="nav-link text-4xl" href="#">
+											Things To Do
+										</a>
+									</li>
+									<li className="nav-item mx-3">
 										<a className="nav-link" href="#">
-											Link
+											Hotels
 										</a>
 									</li>
-									<li className="nav-item dropdown">
-										<a
-											className="nav-link dropdown-toggle"
-											href="#"
-											role="button"
-											data-bs-toggle="dropdown"
-											aria-expanded="false"
-										>
-											Dropdown
-										</a>
-										<ul className="dropdown-menu">
-											<li>
-												<a className="dropdown-item" href="#">
-													Action
-												</a>
-											</li>
-											<li>
-												<a className="dropdown-item" href="#">
-													Another action
-												</a>
-											</li>
-
-											<li>
-												<a className="dropdown-item" href="#">
-													Something else here
-												</a>
-											</li>
-										</ul>
-									</li>
-									<li className="nav-item">
-										<a className="nav-link disabled" aria-disabled="true">
-											Disabled
+									<li className="nav-item mx-3">
+										<a className="nav-link" href="#">
+											Restaurants
 										</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</nav>
+				</div>
+			</div>
+			<div className="col-lg-2">
+				<div className="logo-content d-flex align-items-center">
+					Account Information
 				</div>
 			</div>
 		</div>

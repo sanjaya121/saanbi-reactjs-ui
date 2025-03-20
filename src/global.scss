@@ -1,5 +1,9 @@
 // @use "tailwindcss";
 
-input{
-    block-size: 60px;
+input {
+	block-size: 60px;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
