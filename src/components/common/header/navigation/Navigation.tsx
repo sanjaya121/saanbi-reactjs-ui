@@ -3,7 +3,8 @@ const Navigation = () => {
 		<div className="d-flex align-items-center row">
 			<div className="col-lg-2">
 				<div className="logo-content d-flex align-items-center">
-					<img src="images/logo/logo.png" height="80" /> <div className="h5 mx-3">Ghongi</div>
+					<img src="images/logo/logo.png" height="80" />
+					 <div className="h5 mx-3">Ghongi</div>
 				</div>
 			</div>
 			<div className="col-lg-6">

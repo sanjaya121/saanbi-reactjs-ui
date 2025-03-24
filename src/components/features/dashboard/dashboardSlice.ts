@@ -15,7 +15,8 @@ export const dashBoardSlice =createSlice({
         loadUser:(state)=>{
             console.log("UserLoaded",state)
             state.value += 1
-        }
+        },
+        // extraReducers can be defined here if needed
     }
 })
 
